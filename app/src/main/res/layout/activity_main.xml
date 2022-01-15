@@ -18,8 +18,8 @@
 
     <EditText
         android:id="@+id/tvInput"
-        android:layout_width="358dp"
-        android:layout_height="38dp"
+        android:layout_width="362dp"
+        android:layout_height="51dp"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintBottom_toTopOf="@+id/button"
