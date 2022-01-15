@@ -15,7 +15,7 @@ public class ScreenB extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen_b);
         tv = findViewById(R.id.tvScreen);
-
+        getSupportActionBar().hide();
         Bundle bundle = getIntent().getExtras();
         tv.setText(bundle.getString("str"));
 
